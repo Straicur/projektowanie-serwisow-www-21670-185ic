@@ -1,5 +1,5 @@
 Prosta strona internetowa zawierająca podstrony takie jak list,formularz,strone z podrecznika oraz strona startowa z kilkoma słowami o sobie i linki do wykorzystanych technilogi
-![list](/scr/list.PNG "list")
+![list](/scr/list1.PNG "list")
 
 
 
