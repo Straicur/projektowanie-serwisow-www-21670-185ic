@@ -1,9 +1,10 @@
-Prosta strona internetowa zawierająca podstrony takie jak list,formularz,strone z podrecznika oraz strona startowa z kilkoma słowami o sobie i linki do wykorzystanych technilogi
-![list](/scr/start.PNG "list")
-![list](/scr/list1.PNG "list")
-![list](/scr/list2.PNG "list")
-![list](/scr/podrecznik.PNG "list")
-![list](/scr/formularz.PNG "list")
+Prosta strona internetowa zawierająca podstrony takie jak list,formularz,strone z podrecznika oraz strona startowa z kilkoma słowami o sobie i linki do wykorzystanych technilogi.
+
+![list](/scr/start.PNG "Start")
+![list](/scr/list1.PNG "List1")
+![list](/scr/list2.PNG "List2")
+![list](/scr/podrecznik.PNG "Podrecznik")
+![list](/scr/formularz.PNG "Formularz")
 
 
 
