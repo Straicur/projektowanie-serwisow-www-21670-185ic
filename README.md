@@ -1,14 +1,36 @@
-<h1>Prosta strona internetowa zawierająca podstrony takie jak list,formularz,strone z podrecznika oraz strona startowa z kilkoma słowami o sobie i linki do wykorzystanych technilogi.Do zrobienia strony wykorzystałem gotowy szablon z bootstrapa</h1>
+ # projektowanie-serwisow-www-21670-185ic
+ -
+ -
+ -
+ -
+ -
+ -
+ -
+ -
 
+<h2>Prosta strona internetowa zawierająca podstrony takie jak list,formularz,strone z podrecznika oraz strona startowa z kilkoma słowami o sobie i linki do wykorzystanych technilogi.Do zrobienia strony wykorzystałem gotowy szablon z bootstrapa</h2>
+
+## Strona startowa
 Strona startowa z kontenerem zawierającym imieniem i nazwiskiem na górze strony , pod tym kontenerem są wykorzystane strony .
 ![list](/scr/start.PNG "Start")
+## List
 Przykładowy list .Starałem się aby wyglądał jak list. Tekst wygenerowałem .
 ![list](/scr/list1.PNG "List1")
 ![list](/scr/list2.PNG "List2")
+## Strona z podręcznika
+
 Strona z podręcznika do OCA którą starałem się zformatować podobnie ale dodałem tabelę na koniec.
 ![list](/scr/podrecznik.PNG "Podrecznik")
+## Formularz
+
 Prosty formularz ze strony bootstrapa , dodałem do niego ciut w cssie. 
 ![list](/scr/formularz.PNG "Formularz")
+
+
+
+
+
+
 
 
 
