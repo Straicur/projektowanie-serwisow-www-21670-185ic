@@ -11,7 +11,7 @@
 
 ## Strona startowa
 Strona startowa podzieliłem na nav-bar , dwa kontenery oraz footera . W pierwszym kontenerze zawarłem Imie i Nazwisko i krótki opis . W drógim kontenerze zawarłem zjęcia które po kliknięciu w nie przekierowują na storny wykorzystanych technologi . W footerze załączyłem strony wykoprzystanych elementów . Body ma przypisany background-image natomiast dwa kontenery i footer mają ustawiony przeźroczyste czarne tło .
-![list](/scr/start.PNG "Start")
+![list](Lab1/scr/start.PNG "Start")
 
 ## List
 Przykładowy list . Starałem się aby wyglądał jak list. Tekst został wygenerowany i zformatowany. List podzieliłem na dane oraz treść tekstu .
