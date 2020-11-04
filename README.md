@@ -1,38 +1,9 @@
  # projektowanie-serwisow-www-21670-185ic
  - W ropzytorium znajdują się wszystkie pliki mojej strony .
- - W folderze **img** znajdują się wszystkie zdjęcia które wykorzystałem .
- - W folderze **src** znajdują się zrzuty ekranu strony .
- - Plik **index.html** - zawiera strone startową .
- - Plik **Formularz.html** - zawiera formularz .
- - Plik **List.html** - zawiera list .
- - Plik **Podręcznik.html** - zawiera stronę z podręcznika .
- - Plik **bootstrap.css** -  zawiera css dla mojej strony.
+ - W folderze **lab1** znajdują się wszystkie pliki z laboratorium 1.
+ - W folderze **lab2** znajdują się wszystkie pliki z laboratorium 2.
+
 <h2>Prosta strona internetowa zawierająca podstrony takie jak list,formularz,strone z podrecznika oraz strona startowa z kilkoma słowami o sobie i linki do wykorzystanych technilogi.Do zrobienia strony wykorzystałem gotowy szablon z bootstrapa z kórego wykorzystuje na każdej stronie jako nav-bar.</h2>
-
-## Strona startowa
-Strona startowa podzieliłem na nav-bar , dwa kontenery oraz footera . W pierwszym kontenerze zawarłem Imie i Nazwisko i krótki opis . W drógim kontenerze zawarłem zjęcia które po kliknięciu w nie przekierowują na storny wykorzystanych technologi . W footerze załączyłem strony wykoprzystanych elementów . Body ma przypisany background-image natomiast dwa kontenery i footer mają ustawiony przeźroczyste czarne tło .
-![list](/scr/start.PNG "Start")
-
-## List
-Przykładowy list . Starałem się aby wyglądał jak list. Tekst został wygenerowany i zformatowany. List podzieliłem na dane oraz treść tekstu .
-![list](/scr/list1.PNG "List1")
-![list](/scr/list2.PNG "List2")
-
-## Strona z podręcznika
-Strona z podręcznika do OCA którą starałem się zformatować podobnie jak w książce . Strona ta została zamknięta w jednycm kontenerze który zformatowałem , dodając 2 zdjęcia w środku kodu oraz dodałem tabelę z wyrysowanymi krawędziami border:solid. Cały kontener ma ustawiony box-shadow aby wyglądał lepiej dla oka . 
-![list](/scr/podrecznik.PNG "Podrecznik")
-
-## Formularz
-
-Prosty formularz ze strony bootstrapa , dodałem do niego trochę w cssie . Zmieniłem selektor hover dla przycisku i inputboxów tak aby po najechaniu na te elementy pojawiała się czarna poświata do okoła (box-shadow) . Przycisk zmienia background-color na jasniejszy oraz inputboxy zmieniają kolor po najechaniu na nie .
-![list](/scr/formularz.PNG "Formularz")
-
-
-
-
-
-
-
 
 
 
