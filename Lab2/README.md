@@ -1,6 +1,7 @@
 # Laboratorium 2 JavaScript
 
 <h2>Wszystkie zmiany :</h2>
+
 ## Strona startowa
 Główna zmianą na tej karcie jest dodanie zegara który pobiera lokalnie dane przy pomocy getHours() , getMinutes(),getSeconds(), i jest odświeżany co sekundę (setTimeout(1000)).
 Dodałem również do textu dwa paragrafy , pierwszy przy pomocy appendChild który dopisuje "AMW" na sam koniec oraz drugi przy pomocy prepend który dodaje "Student" na samym początku . Dodawanie tych elementów podzieliłem na 2 funkcje i wywołałem przy wczytaniu okna (window.onload()).
@@ -8,9 +9,9 @@ Dodałem również do textu dwa paragrafy , pierwszy przy pomocy appendChild kt�
 
 ## List
 Modyfikacje w Liście to data która ustawia date przy załadowaniu się karty . Dodałem jeszcze dwa przyciski , pierwszy "Zmien nazwisko" który umożliwia zmiane nazwiska po kliknięciu w przycisk , po tym kliknieciu pojawia się prompt w który można wpisać zamiennik . Drógi przycisk po kliknieciu zmienia fontSize na 30px .
-![list](/Lab2/scr/2.PNG "St")
+![list](/Lab2/scr/2.PNG "list1")
 ![list](/Lab2/scr/3.PNG "List2")
-![list](/Lab2/scr/4.PNG "List2")
+![list](/Lab2/scr/4.PNG "List3")
 
 
 ## Strona z podręcznika
