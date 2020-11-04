@@ -15,7 +15,7 @@ Strona startowa podzieliłem na nav-bar , dwa kontenery oraz footera . W pierwsz
 
 ## List
 Przykładowy list . Starałem się aby wyglądał jak list. Tekst został wygenerowany i zformatowany. List podzieliłem na dane oraz treść tekstu .
-![list](projektowanie-serwisow-www-21670-185ic/Lab1/scr/list1.PNG "List1")
+![list](/Lab1/scr/list1.PNG "List1")
 ![list](/scr/list2.PNG "List2")
 
 ## Strona z podręcznika
