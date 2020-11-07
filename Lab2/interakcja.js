@@ -30,6 +30,7 @@ for(var i = 0;i < document.querySelectorAll(".interakcja div div select option")
     kolor2[i]=document.querySelectorAll(".interakcja div div select option")[i].value;
      
 }
+
    
 function button2(){
     tekst = document.getElementById("tekscik").value;

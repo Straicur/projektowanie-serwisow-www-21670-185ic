@@ -26,11 +26,8 @@ function amw(){
 	student.style.fontSize = "30px";
 	var notatka = document.createTextNode("Student");
 
-
 	student.appendChild(notatka);  
 	element.prepend(student);
-    
-
 
 	var amw = document.createElement("p");
 	var node = document.createTextNode("AMW");
