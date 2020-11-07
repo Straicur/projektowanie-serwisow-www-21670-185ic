@@ -5,6 +5,7 @@
 ## Strona startowa
 Główna zmianą na tej karcie jest dodanie zegara który pobiera lokalnie dane przy pomocy getHours() , getMinutes(),getSeconds(), i jest odświeżany co sekundę (setTimeout(1000)).
 Dodałem również do textu dwa paragrafy , pierwszy przy pomocy appendChild który dopisuje "AMW" na sam koniec oraz drugi przy pomocy prepend który dodaje "Student" na samym początku . Dodawanie tych elementów podzieliłem na 2 funkcje i wywołałem przy wczytaniu okna (window.onload()).
+Po kliknięciu w górną część w której znajduje się nazwisko bg kolor tego kontenera zostanie zmieniony na czerwony .
 ![list](/Lab2/scr/1.PNG "Start")
 
 ## List
@@ -15,11 +16,11 @@ Modyfikacje w Liście to data która ustawia date przy załadowaniu się karty .
 
 
 ## Strona z podręcznika
-W podręczniku jedyną zmianą jest przypisanie do dwóch zdjęć zdarzenia onclick , po kliknięciu w img zostaje wyświetlone powiadomienie .
+W podręczniku jedyną zmianą jest przypisanie do dwóch zdjęć zdarzenia onclick , po kliknięciu w img zostaje wyświetlone powiadomienie .Strona na samym starcie ma ustawiony bg kolor na szary ale po kliknięciu w obrazek bg kolor zostaje zmieniony na biały . Przy starcie strony zostaje dodany pochylony tekst "Strona z podręcznika" oraz zielony pochylony tekst w środku strony . 
 ![list](/Lab2/scr/5.PNG "Podrecznik")
 
 ## Formularz
-W formularzu jedyną zmianą jest zmiana backgroungd color przy wczytaniu strony .
+W formularzu  zmianą jest zmiana bg color przy wczytaniu strony oraz przy starcie podstrony  szerokość i wysokość zostają ustawione na 200 i 50 px .
 ![list](/Lab2/scr/6.PNG "Formularz")
 ## Interakcja
 Interakcja jest to podstrona którą stworzyłem na laboratorium . Została podzielona na 2 części . Pierwsza górna część są to 2 selectboxy dodane w htmlu które mają sztywno ustawione opcje , button który jest inicjatorem zdarzenia i inputbox w który można wpisać tekst . Górna część po wybraniu opcji koloru bg , font color z selectów , wpisaniu tekstu i kliknięciu przycisku wyświetli alert z wpisanym tekstem , doda wpisany tekst który będzie pochyły pod inputboxem oraz zmieni kolor tekstu w inputboxie i zmieni kolor bg na wybrany z selectboxa . W dolnej części wyświetlna jest przezentacja czterech zdjęć które płynnie się zmieniają przy pomocy jquery oraz jest możliwość wybrania konkretnego slajdu aby się wyświetlił .
