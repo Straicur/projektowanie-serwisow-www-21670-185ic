@@ -61,7 +61,8 @@
             <h5>
               FIGURE 4.5 
             </h5>
-            Lambda syntax omitting optional parts
+            <i>Lambda syntax, omitting optional parts</i>
+            
           </p>
           <img src="img/k1.png" class="img-fluid " alt="Responsive image"onclick = "imgdis();"/>
           <p class = "text-left font-weight-normal">
@@ -75,7 +76,8 @@
             <h5>
               FIGURE 4.6 
             </h5>
-            Lambda syntax, including optional parts
+            <i class= "dodatkowytext"></i>
+             
           </p>
           <img src="img/k2.png" class="img-fluid " alt="Responsive image"onclick = "imgdis();"/>  
           <p class = "text-left font-weight-normal">
@@ -118,11 +120,14 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  <script src= "podrecznik.js"></script>
 </body>
-<script>var imgdis= function(){
-
+<script>
+var imgdis= function(){
   alert('Zdjęcie zostało kliknięte');
-} 
+  bgcolor = document.querySelector(".poderecznik");
+  bgcolor.style.backgroundColor = "white";
+}   
+
 </script>
 </html>
