@@ -1,7 +1,6 @@
 # Laboratorium 3 JavaScript
 W labolatorium wykorzystałem bardzo proste przykłady Eventów :
-click ,doubleclick,keypress,key up ,key down ,mouse enter,mouse leave,scroll,copy
-input
+click ,doubleclick,keypress,key up ,key down ,mouse enter,mouse leave,scroll,copy,input.
 <h2>Wszystkie zmiany :</h2>
 
 
@@ -30,4 +29,4 @@ W interakcji użyłem input który po wpisaniu czego kolwiek do inputboxa wyświ
 
 ## funkcje
 W tej podstronie wykonuje wszystkie funkcje z 9 zadań do przećwiczenia . Natomiast w  lab3.js znajdują się wszystkie moje funkcje.
-![list](/Lab3/scr/10.PNG "List1")
+![list](/Lab3/scr/11.PNG "List1")
