@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Fajna Stronka :)</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  
+</head>
+
+<body >
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand"> Strona www</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="List.html">List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Podrecznik.html">Podręcznik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Formularz.html">Formularz</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="interakcja.html">Interakcja</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-12 text-center poderecznik">
+        <h5>
+            <p class = "text-left font-weight-medium"> <strong class="strongpad">212</strong>      Chapter 4 . Methods and Encapsulation </p>
+        </h5>
+           
+          
+          <p class = "text-left font-weight-medium">
+            <h5>
+              FIGURE 4.5 
+            </h5>
+            <i>Lambda syntax, omitting optional parts</i>
+            
+          </p>
+          <img src="img/k1.png" class="img-fluid " alt="Responsive image"onclick = "imgdis();"/>
+          <p class = "text-left font-weight-normal">
+            The second example also has three parts; it’s just more verbose (see Figure 4.6):
+            <li class = "text-left font-weight-medium"> Specify a single parameter with the name a and stating the type is Animal</li>
+            <li class = "text-left font-weight-medium"> The arrow operator to separate the parameter and body</li>
+            <li class = "text-left font-weight-medium"> A body that has one or more lines of code, including a semicolon and a return statement</li>
+          </p>
+          
+          <p class = "text-left font-weight-medium">
+            <h5>
+              FIGURE 4.6 
+            </h5>
+            <i class= "dodatkowytext"></i>
+             
+          </p>
+          <img src="img/k2.png" class="img-fluid " alt="Responsive image"onclick = "imgdis();"/>  
+          <p class = "text-left font-weight-normal">
+            The parentheses can only be omitted if there is a single parameter and its type is not
+            explicitly stated. Java does this because developers commonly use lambda expressions this
+            way and they can do as little typing as possible.
+            It shouldn’t be news to you that we can omit braces when we only have a single statement. We did this with if statements and loops already. What is different here is that the
+            rules change when you omit the braces. Java doesn’t require you to type return or use
+            a semicolon when no braces are used. This special shortcut doesn’t work when we have
+            two or more statements. At least this is consistent with using {} to create blocks of code
+            elsewhere.
+            Let’s look at some examples of valid lambdas. Pretend that there are valid interfaces that
+            can consume a lambda with zero, one, or two String parameters
+          </p>
+          <table >
+            <tr >
+              <th class="tabela">print(() -> true); </th>
+              <th class="tabela">print(a -> a.startsWith("test")); </th>
+              <th class="tabela">print((String a) -> a.startsWith("test")); </th>
+              <th class="tabela">print((a, b) -> a.startsWith("test")); </th>
+              <th class="tabela">print((String a, String b) -> a.startsWith("test")); </th>
+            </tr>
+            <tr >
+              <td class="tabela">0 parameters</td>
+              <td class="tabela">1 parameter</td>
+              <td class="tabela">1 parameter</td>
+              <td class="tabela">2 parameters</td>
+              <td class="tabela">2 parameters</td>
+            </tr>
+           </table>
+          
+           
+           
+        <ul class="list-unstyled">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src= "podrecznik.js"></script>
+</body>
+<script>
+var imgdis= function(){
+  alert('Zdjęcie zostało kliknięte');
+  bgcolor = document.querySelector(".poderecznik");
+  bgcolor.style.backgroundColor = "white";
+}   
+
+</script>
+</html>
