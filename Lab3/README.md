@@ -1,15 +1,7 @@
 # Laboratorium 3 JavaScript
 W labolatorium wykorzystałem bardzo proste przykłady Eventów :
--click
--doubleclick
--keypress
--key up
--key down
--mouse enter
--mouse leave
--scroll
--copy
--input
+click ,doubleclick,keypress,key up ,key down ,mouse enter,mouse leave,scroll,copy
+input
 <h2>Wszystkie zmiany :</h2>
 
 
