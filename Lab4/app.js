@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',()=>{
     const kontenery = document.querySelectorAll('.grid div')
     const wynikdisp = document.querySelector('#result')
-    let width =15
+    let szerokosc =15
     let aktualnyindexstrzelajacego = 202
     let aktualnyindexkosmity = 0
     let ilosczabitychkosmitow = []
@@ -16,5 +16,60 @@ document.addEventListener('DOMContentLoaded',()=>{
         30,31,32,33,34,35,36,37,38,39
     ]
     //rysowanie kosmitów
-    kosmici.forEach(kosmici => kontenery[aktualnyindexkosmity +kosmici].classList.add('invader'))
+    kosmici.forEach(invader => kontenery[aktualnyindexkosmity +invader].classList.add('invader'))
+    //rysowanie strzelaca
+    kontenery[aktualnyindexstrzelajacego].classList.add('shooter')
+    //ruch strzelaca (tylko na boki)
+    function ruchstrzelaca(e){
+    kontenery[aktualnyindexstrzelajacego].classList.remove('shooter')//usuwanie bierzącej lokacji
+    switch(e.keyCode){
+        case 37:
+            if(aktualnyindexstrzelajacego % szerokosc !== 0) aktualnyindexstrzelajacego -=1
+            break
+        case 39:
+            if(aktualnyindexstrzelajacego % szerokosc < szerokosc-1) aktualnyindexstrzelajacego +=1   
+            break
+    }
+    // przypisanie do nowej lokacji
+    kontenery[aktualnyindexstrzelajacego].classList.add('shooter')
+    }
+    document.addEventListener('keydown',ruchstrzelaca)
+    //ruch komitów
+    function ruchkosmitow(){
+        const lewakrawedz = kosmici[0] % szerokosc === 0 
+        const prawakrawedz = kosmici[kosmici.length -1] % szerokosc === szerokosc -1
+        if((lewakrawedz && kierunek === -1) || (prawakrawedz && kierunek === 1)){
+            kierunek = szerokosc
+        } 
+        else if (kierunek === szerokosc){
+            if (lewakrawedz) kierunek = 1 
+            else kierunek = -1
+        }
+        for (let i=0 ; i <=kosmici.length -1;i++){
+            kontenery[kosmici[i]].classList.remove('invader')
+        }
+        for (let i=0 ; i <=kosmici.length -1;i++){
+            kosmici[i] += kierunek
+        }
+        for (let i=0 ; i <=kosmici.length -1;i++){
+            kontenery[kosmici[i]].classList.add('invader')
+        }
+        //wygranie gry
+        if(kontenery[aktualnyindexstrzelajacego].classList.contains('invader','shooter')){
+            wynikdisp.textContent = 'Koniec gry'
+            kontenery[aktualnyindexstrzelajacego].classList.add('boom')
+            clearInterval(idkosmity)
+        }
+        for (let i=0 ; i <=kosmici.length -1;i++){
+            if(kosmici[i]>(kontenery.length - (szerokosc-1))){
+                wynikdisp.textContent = 'Koniec gry'
+                clearInterval(idkosmity)
+            }
+        }
+    }
+    idkosmity = setInterval(ruchkosmitow,500)
+    //strzelanie
+    function strzal(e){
+
+    }
 })
