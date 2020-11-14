@@ -1,23 +1,30 @@
+body{
+    background-color: rgb(73, 73, 73);
+}
 .grid{
+    background-image: url('kosmos.PNG');
     display: flex;
     flex-wrap: wrap;
     border: solid 1px;
-    width: 300px;
+    width: 600px;
 }
 .grid div{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 .shooter{
-    background-color: blue;
+    background-image: url('Orzeł20.png');
 }
 .invader{
-    background-color: purple;
+    background-image: url('Motokomando20.png');
     border-radius: 10px;
 }
 .boom{
-    background-color: red;
+    background-image: url('boom20.png');
 }
 .laser{
-    background-color: orange;
+    background-image: url('Laser.png');
+}
+.ogien{
+    background-image: url('Orzeł21.png');
 }
