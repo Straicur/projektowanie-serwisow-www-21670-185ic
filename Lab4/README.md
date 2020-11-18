@@ -6,22 +6,22 @@
 <h2>Prosta gra typu space invaders</h2>
 ## s
 
-![list](/Lab4/scr/1.PNG "1")
+![list](/Lab4/SCR/1.PNG "1")
 ## s
 
-![list](/Lab4/scr/2.PNG "2")
+![list](/Lab4/SCR/2.PNG "2")
 ## s
 
-![list](/Lab4/scr/3.PNG "3")
+![list](/Lab4/SCR/3.PNG "3")
 ## s
 
-![list](/Lab4/scr/4.PNG "4")
+![list](/Lab4/SCR/4.PNG "4")
 ## s
 
-![list](/Lab4/scr/5.PNG "5")
+![list](/Lab4/SCR/5.PNG "5")
 ## s
 
-![list](/Lab4/scr/1.PNG "1")
+![list](/Lab4/SCR/1.PNG "1")
 
 
 
