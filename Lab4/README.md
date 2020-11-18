@@ -4,6 +4,7 @@
  - W folderze **SCR** znajdują się wszystkie screany.
  
 <h2>Prosta gra typu space invaders</h2>
+
 ## Gra
 
 Gra  działająca na prostych kontenerach .Róch rakiety strzałkami na boki . Liczy wynik zabitych kosmitów .Prosta tabela z wynikami .Kosmici ruszają się w prawo , gdy kosmici dojdą do ściany przeskakują o 1 kontener w dół i potem poróruszają w lewo i tak do wygrania lub przegrania . Oczywiście róch kosmitów i rakiety to zwykłe przeskakiwanie pomiedzy kontenerami i usuwanie i dodawanie zjdęć.
