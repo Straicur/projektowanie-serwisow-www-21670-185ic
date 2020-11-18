@@ -49,7 +49,7 @@ body{
     clear: both;
 }
 .grid{
-    background-image: url('kosmos.PNG');
+    background-image: url('img/kosmos.PNG');
     display: flex;
     flex-wrap: wrap;
     border: solid 1px;
@@ -62,18 +62,18 @@ body{
     height: 60px;
 }
 .shooter{
-    background-image: url('Orzeł20.png');
+    background-image: url('img/Orzeł20.png');
 }
 .invader{
-    background-image: url('Motokomando20.png');
+    background-image: url('img/Motokomando20.png');
     border-radius: 10px;
 }
 .boom{
-    background-image: url('boom.png');
+    background-image: url('img/boom.png');
 }
 .laser{
-    background-image: url('Laser.png');
+    background-image: url('img/Laser.png');
 }
 .ogien{
-    background-image: url('Orzeł21.png');
+    background-image: url('img/Orzeł21.png');
 }

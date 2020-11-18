@@ -105,7 +105,6 @@ document.addEventListener('DOMContentLoaded',()=>{
         //przegranie gry jeżeli kosmita dotyka strzelca
         if(kontenery[aktualnyindexstrzelajacego].classList.contains('invader','shooter')){
             wynikdisp.textContent = 'Koniec gry !!'
-            //popraw tu  
             kontenery[aktualnyindexstrzelajacego2].classList.remove('ogien')
             kontenery[aktualnyindexstrzelajacego2].classList.add('boom')
             kontenery[aktualnyindexstrzelajacego].classList.add('boom') 
