@@ -4,17 +4,17 @@
  - W folderze **SCR** znajdują się wszystkie screany.
  
 <h2>Prosta gra typu space invaders</h2>
-##s
+## s
 ![list](/Lab4/scr/1.PNG "1")
-##s
+## s
 ![list](/Lab4/scr/2.PNG "2")
-##s
+## s
 ![list](/Lab4/scr/3.PNG "3")
-##s
+## s
 ![list](/Lab4/scr/4.PNG "4")
-##s
+## s
 ![list](/Lab4/scr/5.PNG "5")
-##s
+## s
 ![list](/Lab4/scr/1.PNG "1")
 
 
