@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Laboratorium 2 JavaScript
 
 <h2>Wszystkie zmiany :</h2>
