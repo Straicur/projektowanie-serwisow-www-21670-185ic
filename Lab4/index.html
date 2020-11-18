@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+  
     <meta charset="utf-8">
     <title>Space Invaders</title>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="app.js" charset="utf-8"></script>
   </head>
-  <body>
 
-    <h3>Twój wynik :<span id="result"></span></h3>
+  <body>
     <!--strona zostanie podzielona na 15x15 = 225 divów -->
-    <div class="grid">
+    
+    <div class="grid tablica">
       <div></div>
       <div></div>
       <div></div>
@@ -238,6 +240,29 @@
       <div></div>
       <div></div> 
     </div>
-
+    <div class="tablica przyciski">
+      <h3 class="Wynik">Twój wynik : <span id="result"></span></h3>
+      <h1 class="Napis">Tablica wyników</h1>
+      <table  class="tabela">
+        <thead>
+          <tr>
+            <th class="wiersz"><h2>Nick</h2></th>
+            <th class="wiersz"><h2>Wynik</h2></th>
+            <th class="wiersz"><h2>Czas</h2></th>
+            <th class="wiersz"><h2>Poziom</h2></th>
+          </tr>
+        </thead>
+        <tbody class = "tablebody">
+          <tr>
+            <td class="wiersz">Straicer</td>
+            <td class="wiersz">30</td>
+            <td class="wiersz">0min 20sec</td>
+            <td class="wiersz">1</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tablica2">
+    </div>
   </body>
 </html>

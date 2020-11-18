@@ -16,7 +16,6 @@ button.innerText = "Powiększ litery";
 button1.innerText = "Zmien nazwisko";  
 button.style.background = "grey";
 button1.style.background = "grey";
-
 var pixele = "30px";
 
 
