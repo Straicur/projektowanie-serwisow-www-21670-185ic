@@ -7,7 +7,7 @@
 
 ## Gra
 
-Gra  działająca na prostych kontenerach .Róch rakiety strzałkami na boki . Liczy wynik zabitych kosmitów .Strzelanie na spacji z prostą kolizją . Prosta tabela z wynikami .Kosmici ruszają się w prawo , gdy kosmici dojdą do ściany przeskakują o 1 kontener w dół i potem poróruszają w lewo i tak do wygrania lub przegrania . Oczywiście róch kosmitów i rakiety to zwykłe przeskakiwanie pomiedzy kontenerami i usuwanie i dodawanie zjdęć.
+Gra  działająca na prostych kontenerach . Ruch rakiety strzałkami na boki . Liczy wynik zabitych kosmitów .Strzelanie na spacji z prostą kolizją . Prosta tabela z wynikami .Kosmici ruszają się w prawo , gdy kosmici dojdą do ściany przeskakują o 1 kontener w dół i potem poróruszają w lewo i tak do wygrania lub przegrania . Oczywiście róch kosmitów i rakiety to zwykłe przeskakiwanie pomiedzy kontenerami i usuwanie i dodawanie zjdęć.
 
 ![list](/Lab4/SCR/1.PNG "1")
 
