@@ -173,9 +173,9 @@ function odliczanieh()
 	  getArticleAndCreateObject(callingCodes).finally(() => console.log('Koniec'));
 	  asyncAwait(url);
 	  }, 100);            
-
+		//zad 2
 	function sum(userId, id) {
-		console.log("Pierwsza liczba : "+ userId+" Dróga liczba : " +id )	
+		console.log("Pierwsza liczba : "+ userId+" Druga liczba : " +id )	
 	  return ((userId - id) + 10);
 	}
 
@@ -183,16 +183,17 @@ function odliczanieh()
 		var objekt = { nazwa: title, region: body };
 		return (objekt);
 	}
-
+		//zad 3
 	function addAsync(userid, id) {
 		console.log("(useId + id) * 3 : "+userid+" " +id)	
 		return ((userid+id)*3);
 	}
-
+		
 	function addAsyncObj(title, body) {
 		var someObject = { title: title  , body: body  };
 	 	return (someObject);
 	}
+		//zad 4
 	function addAjax(userid, id){
 		console.log("(useId + id) * 4 : "+userid+" " +id)	
 		return ((userid+id)*4);
@@ -201,6 +202,7 @@ function odliczanieh()
 		var someObject = { title: title  , body: body  };
 	 	return (someObject);
 	}
+		//zad 6
 	function addAxios(userid, id){
 		console.log("(useId + id) * 2 : "+userid+" " +id)	
 		return ((userid+id)*2);
