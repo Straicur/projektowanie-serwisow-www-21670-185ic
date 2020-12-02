@@ -168,7 +168,7 @@ function odliczanieh()
 	  getArticle(userId).then(data => console.log('Fetch :pobranie dwóch liczb i działanie na nich\n wynik to:', data));
 	  getArticle('bzzz').catch(data => console.log("Przykład błędny:", data));
 	  getArticle(userId).finally(() => console.log('koniec operacji'));
-	  getArticleAndCreateObject(callingCodes).then(data => console.log('Fetch :pobranie dwoch zasobów i stworzenie nowego objektu \n wynik to:', data));
+	  getArticleAndCreateObject(callingCodes).then(data => console.log('Fetch :pobranie dwóch zasobów i stworzenie nowego objektu \n wynik to:', data));
 	  getArticleAndCreateObject('bzzz').catch(data => console.log("Przykład błędny:", data));
 	  getArticleAndCreateObject(callingCodes).finally(() => console.log('Koniec'));
 	  asyncAwait(url);
