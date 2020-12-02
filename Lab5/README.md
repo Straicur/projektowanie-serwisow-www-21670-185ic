@@ -1,13 +1,11 @@
 # Laboratorium 5 JavaScript
 
-<h2</h2>
-
-W tej podstronie wykonuje wszystkie funkcje z zadń 1-6 . Natomiast w  funkcje.js znajdują się wszystkie moje funkcje.
+<h2>W index.html wykonuje wszystkie funkcje z zadń 1-6 . Natomiast w  funkcje.js znajdują się wszystkie moje funkcje.</h2>
 
 ## Wyświetlenie wszystkich zadań w konsoli przeglądarki
 ![list](/Lab5/scr/1.PNG "List1")
 
-## Wszystkie funkcje zad 2 i 3 
+## Wszystkie funkcje 
 ![list](/Lab5/scr/7.PNG "List1")
 
 ## Zad 1
@@ -19,7 +17,7 @@ W tej podstronie wykonuje wszystkie funkcje z zadń 1-6 . Natomiast w  funkcje.j
 ## Zad 3
 ![list](/Lab5/scr/4.PNG "List1")
 
-## Wywoływanie  
+## Wywoływanie zad 2 i 3 
 ![list](/Lab5/scr/6.PNG "List1")
 
 ## Zad 4
