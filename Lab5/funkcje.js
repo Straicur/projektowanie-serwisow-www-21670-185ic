@@ -6,7 +6,6 @@ odliczanieh();
 	let url_posts_2 = 'https://jsonplaceholder.typicode.com/posts/2';
 	axios.get(url_posts_2)
 	.then(function (response) {
-	// handle success
 	body = response.data.body;
 	title = response.data.title;
 	userId = response.data.userId;
@@ -39,7 +38,7 @@ function odliczanieh()
 		document.getElementById("zegarek").innerHTML = godzina+":"+minuta+":"+sekunda;
 		 setTimeout("odliczanieh()",1000);
 	}
-
+	// Zad  1 
 	let isLoading = true;
 	let nazwa ,region , callingCodes ;
 	let id,userId,title,body ;
@@ -80,7 +79,7 @@ function odliczanieh()
 	const text2 = ` ma takie auto : ${text1}`
 	console.log(a + text2) 
 	})
-//////////////////////////////////////////////////// Zad 2 resolve, reject i then(), catch() i finally() + axios (lub fetch) Czyli trzeba coś pobrac 
+	// Zad 2 
 	
 
 	fetch('https://jsonplaceholder.typicode.com/posts')
@@ -100,7 +99,7 @@ function odliczanieh()
 		nazwa = response[0].name;
 		region = response[0].region;
 		callingCodes = response[0].callingCodes;
-		console.log("Info about country: ", response);
+		//console.log("Info about country: ", response);
 
 	})
 	.catch(function(error) { console.error(error)})
@@ -116,7 +115,6 @@ function odliczanieh()
 	  });
 	}
 
-	/*obiekt promise, wywołujący funkcje która tworzy nowy obiekt*/
 	function getArticleAndCreateObject(callingCodes) {
 		return new Promise((resolve, reject) => {
 			if (callingCodes == "48") {
@@ -141,7 +139,7 @@ function odliczanieh()
 			userId = anotherJsonObject.userId;
 			id = anotherJsonObject.id;
 			console.log(addAsync(id, userId));
-			console.log(asyncCreateObject(title, body));
+			console.log(addAsyncObj(title, body));
 		}
 	}
 	//Ajax zad 4
@@ -181,7 +179,6 @@ function odliczanieh()
 	  return ((userId - id) + 10);
 	}
 
-	/*stworz nowy obiekt*/
 	function nowyObjekt(title, body) {
 		var objekt = { nazwa: title, region: body };
 		return (objekt);
@@ -192,7 +189,7 @@ function odliczanieh()
 		return ((userid+id)*3);
 	}
 
-	function asyncCreateObject(title, body) {
+	function addAsyncObj(title, body) {
 		var someObject = { title: title  , body: body  };
 	 	return (someObject);
 	}
