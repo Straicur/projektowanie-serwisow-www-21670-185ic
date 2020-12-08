@@ -2,7 +2,7 @@
 <br>
 
 # Wygląd apki
-<h1>Zadaniem na tym Labolatorium było zrobienie prostej apki w reactie. Aplikacja ta wyświetla listę imion .Po kliknięciu w przycisk 'Zmień tytuł' zmienia tytuł , natomiast po kliknięciu w przycisk 'Imiona' zamiast listy imion wyświetla 'Brak Imion' . Podpiąłem bootstrapa jako wygląd przycisków oraz lekko ostywowałem program.</h1>
+<h2>Zadaniem na tym Labolatorium było zrobienie prostej apki w reactie. Aplikacja ta wyświetla listę imion .Po kliknięciu w przycisk 'Zmień tytuł' zmienia tytuł , natomiast po kliknięciu w przycisk 'Imiona' zamiast listy imion wyświetla 'Brak Imion' . Podpiąłem bootstrapa jako wygląd przycisków oraz lekko ostywowałem program.</h2>
 
 ![list](/Lab6/moja-aplikacja/Scr/1.PNG "Start")
 
