@@ -1,1 +1,33 @@
+# Laboratorium nr 6 React - aplikacja nr 1
+<br>
+
+# Wygląd apki
+<h1>Zadaniem na tym Labolatorium było zrobienie prostej apki w reactie. Aplikacja ta wyświetla listę imion .Po kliknięciu w przycisk 'Zmień tytuł' zmienia tytuł , natomiast po kliknięciu w przycisk 'Imiona' zamiast listy imion wyświetla 'Brak Imion' </h1>
+
+![list](moja-aplikacja/Scr/1.PNG "Start")
+
+# Po kliknięciu przycisku Zmień tytuł
+
+![list](moja-aplikacja/Scr/2.PNG "Start")
+
+# Po kliknięciu przycisku Imiona
+
+![list](moja-aplikacja/Scr/3.PNG "Start")
+
+# Po ponownym kliknięciu Imiona
+
+![list](moja-aplikacja/Scr/4.PNG "Start")
+
+# Kod funkcji Names
+
+![list](moja-aplikacja/Scr/5.PNG "Start")
+
+# Kod Klasy HeadLine
+
+![list](moja-aplikacja/Scr/6.PNG "Start")
+
+# Zimportowanie i załadowanie
+
+![list](moja-aplikacja/Scr/7.PNG "Start")
+
 
