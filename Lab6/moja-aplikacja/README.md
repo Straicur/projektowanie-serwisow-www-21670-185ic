@@ -8,26 +8,26 @@
 
 # Po kliknięciu przycisku Zmień tytuł
 
-![list](/moja-aplikacja/Scr/2.PNG "Start")
+![list](/Lab6/moja-aplikacja/Scr/2.PNG "Start")
 
 # Po kliknięciu przycisku Imiona
 
-![list](/moja-aplikacja/Scr/3.PNG "Start")
+![list](/Lab6/moja-aplikacja/Scr/3.PNG "Start")
 
 # Po ponownym kliknięciu Imiona
 
-![list](/moja-aplikacja/Scr/4.PNG "Start")
+![list](/Lab6/moja-aplikacja/Scr/4.PNG "Start")
 
 # Kod funkcji Names
 
-![list](/moja-aplikacja/Scr/5.PNG "Start")
+![list](/Lab6/moja-aplikacja/Scr/5.PNG "Start")
 
 # Kod Klasy HeadLine
 
-![list](/moja-aplikacja/Scr/6.PNG "Start")
+![list](/Lab6/moja-aplikacja/Scr/6.PNG "Start")
 
 # Zimportowanie i załadowanie
 
-![list](/moja-aplikacja/Scr/7.PNG "Start")
+![list](/Lab6/moja-aplikacja/Scr/7.PNG "Start")
 
 
