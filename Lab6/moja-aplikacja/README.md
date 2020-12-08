@@ -4,7 +4,7 @@
 # Wygląd apki
 <h1>Zadaniem na tym Labolatorium było zrobienie prostej apki w reactie. Aplikacja ta wyświetla listę imion .Po kliknięciu w przycisk 'Zmień tytuł' zmienia tytuł , natomiast po kliknięciu w przycisk 'Imiona' zamiast listy imion wyświetla 'Brak Imion' </h1>
 
-![list](/moja-aplikacja/Scr/1.PNG "Start")
+![list](Lab6/moja-aplikacja/Scr/1.PNG "Start")
 
 # Po kliknięciu przycisku Zmień tytuł
 
