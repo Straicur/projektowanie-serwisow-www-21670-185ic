@@ -1,10 +1,23 @@
-# Laboratorium nr 6 React - aplikacja nr 1
+# Laboratorium nr 7 React - aplikacja nr 2
 <br>
 
 # Wygląd apki
-<h2></h2>
+<h2>
+  <ul>Do wykonania laboratorium musiałem zainstalować :
+    <li>@material-ui/core</li>
+    <li>@material-ui/icons</li>
+    <li>react-router</li>
+  </ul>
+  Same dodawanie komponentów przy użyciu dokumentacji jest dość proste . Dobrze opisane komponenty i dużo przykładów(nawet z githubem) .
+</h2>
 
 # Switch / Route / Link 
+Wykorzystane komponenty :
+<ul>
+    <li></li>
+    <li></li>
+    <li><li>
+ </ul>
 ```python
 
 function App() {
@@ -51,7 +64,12 @@ function App() {
 
 
 # Pierwsza podstrona  
-
+Wykorzystane komponenty :
+<ul>
+    <li></li>
+    <li></li>
+    <li><li>
+ </ul>
 ```python
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -117,6 +135,12 @@ export default function ButtonAppBar() {
 ![list](/Lab7/moja-aplikacja/Scr/1.PNG "Start")
 
 # Druga podstrona 
+Wykorzystane komponenty :
+<ul>
+    <li></li>
+    <li></li>
+    <li><li>
+ </ul>
 ```python
 //komponent funkcji
 const Names = props => {
@@ -175,6 +199,12 @@ class HeadLine extends React.Component {
 ![list](/Lab7/moja-aplikacja/Scr/3.PNG "Start")
 
 # Trzecia podstrona 
+Wykorzystane komponenty :
+<ul>
+    <li></li>
+    <li></li>
+    <li><li>
+ </ul>
 ```python
 const Styles = makeStyles({
   root: {
