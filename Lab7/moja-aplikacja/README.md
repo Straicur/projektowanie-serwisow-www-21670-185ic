@@ -3,7 +3,8 @@
 
 # Wygląd apki
 <h2>
-  <ul>Do wykonania laboratorium musiałem zainstalować :
+ Do wykonania laboratorium musiałem zainstalować :
+  <ul>
     <li>@material-ui/core</li>
     <li>@material-ui/icons</li>
     <li>react-router</li>
