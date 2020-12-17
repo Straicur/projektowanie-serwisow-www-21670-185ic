@@ -68,7 +68,7 @@ function App() {
 
 # Pierwsza podstrona  
 
-<h2>Na tej podstronie chciałem wybróbować AppBar i ToolBar . Urzyłem jeszcze makeStyles do poprawy wyglądu .</h2>
+<h2>Na tej podstronie chciałem wybróbować AppBar i ToolBar . Użyłem jeszcze makeStyles do poprawy wyglądu .</h2>
 
 Wykorzystane komponenty :
 <ul>
@@ -150,7 +150,7 @@ export default function ButtonAppBar() {
 
 # Druga podstrona 
 
-<h2>Na tej podstronie przerobiłem aplikacje z lab 6 w taki sposób że zamieniłem buttony na komponenty reacta i wrzóciłem je w buttonGroup oraz wykorzystałem jeszcze komponent Container</h2>
+<h2>Na tej podstronie przerobiłem aplikacje z lab 6 w taki sposób że zamieniłem buttony na komponenty reacta i wrzuciłem je w buttonGroup oraz wykorzystałem jeszcze komponent Container</h2>
 
 Wykorzystane komponenty :
 <ul>
