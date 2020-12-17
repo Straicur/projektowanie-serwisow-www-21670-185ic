@@ -114,7 +114,7 @@ export default function ButtonAppBar() {
 }
 ```
 
-![list](/Lab6/moja-aplikacja/Scr/1.PNG "Start")
+![list](/Lab7/moja-aplikacja/Scr/1.PNG "Start")
 
 # Druga podstrona 
 ```python
@@ -170,9 +170,9 @@ class HeadLine extends React.Component {
     }
 }
 ```
-![list](/Lab6/moja-aplikacja/Scr/2.PNG "Start")
+![list](/Lab7/moja-aplikacja/Scr/2.PNG "Start")
 
-![list](/Lab6/moja-aplikacja/Scr/3.PNG "Start")
+![list](/Lab7/moja-aplikacja/Scr/3.PNG "Start")
 
 # Trzecia podstrona 
 ```python
@@ -247,7 +247,7 @@ function Page3() {
   );
 }
 ```
-![list](/Lab6/moja-aplikacja/Scr/4.PNG "Start")
+![list](/Lab7/moja-aplikacja/Scr/4.PNG "Start")
 
 
 
