@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     let aktualnyindexkosmity = 0
     let ilosczabitychkosmitow = []
     let wynik = 0
-    let kierunek = 1
+    let kierunek = 1 
     let idkosmity 
     var wygrana = 0 
 
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
     //rysowanie kosmitów
-    kosmici.forEach(invader => kontenery[aktualnyindexkosmity +invader].classList.add('invader'))
+    kosmici.forEach(invader => kontenery[aktualnyindexkosmity +invader].classList.add('invader'))// dodajemy do niej klasę z cssa 
     //rysowanie strzelaca
     kontenery[aktualnyindexstrzelajacego].classList.add('shooter')
     kontenery[aktualnyindexstrzelajacego2].classList.add('ogien')
@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     switch(e.keyCode){
         case 37:
             //lewo
+            //jeżeli aktualnyindex mod szerokosc nie jest równy 0 to moze sie ruszac 
             if(aktualnyindexstrzelajacego % szerokosc !== 0 && aktualnyindexstrzelajacego2 % szerokosc !== 0 ) {
                 aktualnyindexstrzelajacego -=1
                 aktualnyindexstrzelajacego2 -=1
@@ -61,6 +62,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             break
         case 39:
             //prawo
+            // może się ruszac gdy aktindx mod szerokos i numer jest  mniejszy niz 14 
             if(aktualnyindexstrzelajacego % szerokosc < szerokosc-1 && aktualnyindexstrzelajacego2 % szerokosc < szerokosc-1){
                 aktualnyindexstrzelajacego +=1   
                 aktualnyindexstrzelajacego2 +=1   
@@ -74,18 +76,17 @@ document.addEventListener('DOMContentLoaded',()=>{
     document.addEventListener('keydown',ruchstrzelaca)
     //ruch komitów
     function ruchkosmitow(){
-        const lewakrawedz = kosmici[0] % szerokosc === 0 //pierszy kosmita
-        const prawakrawedz = kosmici[kosmici.length -1] % szerokosc === szerokosc -1 //ostatni kosmita
-        if((lewakrawedz && kierunek === -1) || (prawakrawedz && kierunek === 1)){
+        const lewakrawedz = kosmici[0] % szerokosc === 0 //ustawianie lewej krawedzi przy pomocy naszych kosmiów
+        const prawakrawedz = kosmici[kosmici.length -1] % szerokosc === szerokosc -1 //ustawianie prawej krawedzi przy pomocy naszych kosmiów
+        if((lewakrawedz && kierunek === -1) || (prawakrawedz && kierunek === 1)){// jezeli kosmici sa przy ktorejsc z krawedzi to przeskok o 15 kontenerow
             kierunek = szerokosc
             //przeskok w dół
             console.info("przeskok")
         } 
-        //Jeżeli index to już np 15 to przeskok
-        else if (kierunek === szerokosc){
-            if (lewakrawedz) kierunek = 1 
-            else kierunek = -1
-            console.info("przeskok2")
+        else if (kierunek === szerokosc){ // jezeli kierunek jest juz równy 15 to wtedy ustawiamy kierunki 
+            if (lewakrawedz) kierunek = 1 // jeżeli lewa krawędź to 1 i wtedy poruszają się w prawo o jeden div
+            else kierunek = -1 // jeżeli prawa krawędź to -1 i wtedy poruszają się w lewo o jeden div
+            console.info("zmiana kierunku")
         }
         //usuwanie kosmitów
         for (let i=0 ; i <=kosmici.length -1;i++){
@@ -95,13 +96,14 @@ document.addEventListener('DOMContentLoaded',()=>{
             kosmici[i] += kierunek //przypisanie kierunku do każdego kosmity
 
         }
-        //przypisanie nowej lokacji dla kosmity
+        //przypisanie nowej lokacji dla kosmity 
         for (let i=0 ; i <=kosmici.length -1;i++){
             if(!ilosczabitychkosmitow.includes(i)){
                 //argument który nie pozwoli programowi dodawać nowych kosmitów jeżeli zostali zestrzeleni
                 kontenery[kosmici[i]].classList.add('invader')
             }
         }
+        //logika wygranej i przegranej 
         //przegranie gry jeżeli kosmita dotyka strzelca
         if(kontenery[aktualnyindexstrzelajacego].classList.contains('invader','shooter')){
             wynikdisp.textContent = 'Koniec gry !!'
@@ -146,10 +148,10 @@ document.addEventListener('DOMContentLoaded',()=>{
         let aktualneIdLasera = aktualnyindexstrzelajacego
         //róch lasera w strone kosmitów
         function ruchLasera(){
-            kontenery[aktualneIdLasera].classList.remove('laser')
-            aktualneIdLasera -= szerokosc
-            kontenery[aktualneIdLasera].classList.add('laser')
-            if(kontenery[aktualneIdLasera].classList.contains('invader')){
+            kontenery[aktualneIdLasera].classList.remove('laser') //usuwanie lasera po adktualnym indeksem
+            aktualneIdLasera -= szerokosc   //Przeskok lasera o 1 w góre czy li 15 divów 
+            kontenery[aktualneIdLasera].classList.add('laser') //rysowanie lasera 
+            if(kontenery[aktualneIdLasera].classList.contains('invader')){  //sprawdzenie koplizji
                 //jeżeli aktulnyindex lasera jest taki sam jak kosmity to usuwamy kosmite i laser i dodajemy boom
                 kontenery[aktualneIdLasera].classList.remove('laser')  
                 kontenery[aktualneIdLasera].classList.remove('invader')
@@ -157,20 +159,20 @@ document.addEventListener('DOMContentLoaded',()=>{
 
                 setTimeout(()=> kontenery[aktualneIdLasera].classList.remove('boom'),150)//usuniecie booma po 150 ms
                 
-                clearInterval(laserId)
+                clearInterval(laserId) //usuwanie interwału dla tego lasera 
 
-                const zabicikosmici = kosmici.indexOf(aktualneIdLasera)
-                ilosczabitychkosmitow.push(zabicikosmici)
-                wynik++
-                wynikdisp.textContent=wynik
+                const zabicikosmici = kosmici.indexOf(aktualneIdLasera) // tabela zabić
+                ilosczabitychkosmitow.push(zabicikosmici) //pushnięcie do tabeli ilość zabitych kosmitów
+                wynik++ //dodanie do wyniku +1
+                wynikdisp.textContent=wynik // wypisanie wyniku 
             }
-            //jeżeli laser nie jest już w 15 divach to go usuwamy
+            //jeżeli laser nie jest już w pierwszych 15 divach to go usuwamy
             if(aktualneIdLasera < szerokosc){
-                clearInterval(laserId)
-                setTimeout(()=>kontenery[aktualneIdLasera].classList.remove('laser'),10)
+                clearInterval(laserId)  //czyszczenie interwału 
+                setTimeout(()=>kontenery[aktualneIdLasera].classList.remove('laser'),10) //usuwanie lasera 
             }
         }
-        switch(e.keyCode)
+        switch(e.keyCode)//spacja
         {
             case 32:
                 laserId = setInterval(ruchLasera ,30)//interwał strzelania (50 to szykosc)
@@ -183,6 +185,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         })
         */
     }
+    document.addEventListener('keyup',strzal)
     // dodawanie danych do tablicy
     function addRow(tableclass,nick,wynik,czas) {
         let tableRef = document.querySelector(tableclass);
@@ -206,7 +209,7 @@ document.addEventListener('DOMContentLoaded',()=>{
       }
 
 
-    document.addEventListener('keyup',strzal)
+
 
     button1.onclick = function(){
         if(wygrana == 1 ){

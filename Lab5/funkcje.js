@@ -57,10 +57,10 @@ function odliczanieh()
 	}
 	const licz1 = person.age;
 	const licz2 = person.vehicles.airlines.seat;
+
 	function randomBetween(liczba1, liczba2, fn) {
-	const nr = liczba1 + liczba2;
-	
-	fn(nr);
+		const nr = liczba1 + liczba2;		
+		fn(nr);
 	}
 
 	randomBetween(licz1,licz2, function(res) {
