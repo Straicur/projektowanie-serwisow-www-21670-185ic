@@ -12,12 +12,15 @@
 </h2>
 
 # Switch / Route / Link 
+
 Wykorzystane komponenty :
 <ul>
-    <li></li>
-    <li></li>
-    <li><li>
+    <li>Router</li>
+    <li>Link</li>
+    <li>Switch</li>
+    <li>Route</li>
  </ul>
+ 
 ```python
 
 function App() {
@@ -64,12 +67,23 @@ function App() {
 
 
 # Pierwsza podstrona  
+
+<h2>Na tej podstronie chciałem wybróbować AppBar i ToolBar . Urzyłem jeszcze makeStyles do poprawy wyglądu .</h2>
+
 Wykorzystane komponenty :
 <ul>
-    <li></li>
-    <li></li>
-    <li><li>
+    <li>AppBar</li>
+    <li>Toolbar</li>
+    <li>IconButton</li>
+    <li>Icon</li>
+    <li>Typography</li>
+    <li>Badge</li>
+    <li>IconButton</li>
+    <li>makeStyles</li>
+    <li>withStyles</li>
+  
  </ul>
+ 
 ```python
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -135,12 +149,17 @@ export default function ButtonAppBar() {
 ![list](/Lab7/moja-aplikacja/Scr/1.PNG "Start")
 
 # Druga podstrona 
+
+<h2>Na tej podstronie przerobiłem aplikacje z lab 6 w taki sposób że zamieniłem buttony na komponenty reacta i wrzóciłem je w buttonGroup oraz wykorzystałem jeszcze komponent Container</h2>
+
 Wykorzystane komponenty :
 <ul>
-    <li></li>
-    <li></li>
-    <li><li>
+    <li>Container</li>
+    <li>ButtonGroup</li>
+    <li>Button</li>
+    <li>AcUnitIcon</li>
  </ul>
+ 
 ```python
 //komponent funkcji
 const Names = props => {
@@ -199,12 +218,20 @@ class HeadLine extends React.Component {
 ![list](/Lab7/moja-aplikacja/Scr/3.PNG "Start")
 
 # Trzecia podstrona 
+
+<h2>Na tej podstronie ćwiczyłem wykorzystanie innych komponentów .</h2>
+
 Wykorzystane komponenty :
 <ul>
-    <li></li>
-    <li></li>
-    <li><li>
+    <li>Grid</li>
+    <li>Paper</li>
+    <li>Button</li>
+    <li>FormControlLabel</li>
+    <li>Checkbox</li>
+    <li>AlarmOnIcon</li>
+    <li>makeStyles</li>
  </ul>
+ 
 ```python
 const Styles = makeStyles({
   root: {
