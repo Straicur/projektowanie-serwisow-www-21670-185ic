@@ -2,7 +2,6 @@
 
 [Bare](https://startbootstrap.com/templates/bare/) is a bare HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This template features predefined file paths for Bootstrap and jQuery, so you can quickly create Bootstrap websites.
 
-<<<<<<< HEAD
 ## Preview
 =======
 ## Strona startowa
@@ -10,13 +9,12 @@ Główna zmianą na tej karcie jest dodanie zegara który pobiera lokalnie dane 
 Dodałem również do textu dwa paragrafy , pierwszy przy pomocy appendChild który dopisuje "AMW" na sam koniec oraz drugi przy pomocy prepend który dodaje "Student" na samym początku . Dodawanie tych elementów podzieliłem na 2 funkcje i wywołałem przy wczytaniu okna (window.onload()).
 Po kliknięciu w górną część w której znajduje się nazwisko bg kolor tego kontenera zostanie zmieniony na czerwony .
 ![list](/Lab2/scr/1.PNG "Start")
->>>>>>> be5efe474b1fc47ed4fc2ac0eed84ca3237fdf02
+
 
 [![Bare Preview](https://startbootstrap.com/assets/img/screenshots/templates/bare.png)](https://startbootstrap.github.io/startbootstrap-bare/)
 
 **[View Live Preview](https://startbootstrap.github.io/startbootstrap-bare/)**
 
-<<<<<<< HEAD
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-bare/master/LICENSE)
