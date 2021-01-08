@@ -21,7 +21,7 @@
 <h1>Pierwsza część to badge który zmienia swój wygląd (getBadgeClasses) w zależności od wartości jaką ma aktualnie(formatCount). </h1>
 <h1>Następnie przycisk odpowiedzialny za Inkrementacje któremu przy użyciu props pobieramy odpowiednie dane. Następny to przycisk Dekrementacji , różni się tym że przypisujemy mu inną funkcję pod onclick i jest wyłączony jeżeli aktualna wartość countera to zero.</h1>
 <h1>I ostatni przycisk to usuwanie któremu pobieramy id usuwanego komponentu. </h1>
-``` javascript
+``` 
 import React, { Component } from "react";
 
 class Counter extends Component {//stworzenie komponentu counter 
@@ -79,7 +79,7 @@ export default Counter;
 ```
 # Komponent Counters to komponent w którym ustawiamy ciało aplikacji.
 <h1>Na początku pobieramy propsem wszyskie funkcje onClick. Są tu 3 przyciski (reset,refresh,add).Po nich wywołujemy funkcję strzałkową która tworzy nam komponenty Counter.</h1>
-```javascript
+```
 import React, { Component } from "react";
 import Counter from "./counter";
 
@@ -140,7 +140,7 @@ export default Counters;
 
 # Komponent navbar.
 <h1>W tym komponencie tworzony jest prosty navbar z nazwą "Zamówienia" i koszykiem przy którym wyświetlamy ilość zamówień (przy pomocy przekazanego do componentu totalCounters) w badge. </h1>
-```javascript
+```
 import React from "react";
 
 // Stateless Functional Component
@@ -170,7 +170,7 @@ export default NavBar;
 <h1>W renderze tworzymy już nasz navbar i przekazujemy mu aktualną ilość zamówień. </h1>
 <h1>Oraz tworzymy counters i przekazujemy mu wszystkie potrzebne dane i funkcje.</h1>
 <h1>Dodałem na szybko funkcję która dodaje do tablicy kolejny element a rastępnie go renderuje. </h1>
-```javascript
+```
 import React, { Component } from "react";
 import NavBar from "./components/navbar";
 import Counters from "./components/counters";
