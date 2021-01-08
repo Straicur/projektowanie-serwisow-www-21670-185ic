@@ -81,6 +81,7 @@ export default Counter;
 ```
 # Komponent Counters to komponent w którym ustawiamy ciało aplikacji.
 <h1>Na początku pobieramy propsem wszyskie funkcje onClick. Są tu 3 przyciski (reset,refresh,add).Po nich wywołujemy funkcję strzałkową która tworzy nam komponenty Counter.</h1>
+
 ```
 import React, { Component } from "react";
 import Counter from "./counter";
@@ -138,10 +139,9 @@ export default Counters;
 ```
 
 
-
-
 # Komponent navbar.
 <h1>W tym komponencie tworzony jest prosty navbar z nazwą "Zamówienia" i koszykiem przy którym wyświetlamy ilość zamówień (przy pomocy przekazanego do componentu totalCounters) w badge. </h1>
+
 ```
 import React from "react";
 
@@ -172,6 +172,7 @@ export default NavBar;
 <h1>W renderze tworzymy już nasz navbar i przekazujemy mu aktualną ilość zamówień. </h1>
 <h1>Oraz tworzymy counters i przekazujemy mu wszystkie potrzebne dane i funkcje.</h1>
 <h1>Dodałem na szybko funkcję która dodaje do tablicy kolejny element a rastępnie go renderuje. </h1>
+
 ```
 import React, { Component } from "react";
 import NavBar from "./components/navbar";
