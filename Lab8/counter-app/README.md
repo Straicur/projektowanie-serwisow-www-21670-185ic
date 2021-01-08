@@ -1,7 +1,7 @@
 # Laboratorium nr 8 React - aplikacja nr 2 + analiza kodu źródłowego + git difftool
 <br>
 
-#Wygląd aplikacji 
+# Wygląd aplikacji 
 
 ![list](/Lab8/counter-app/Scr/1.PNG "Start")
 
@@ -138,7 +138,7 @@ export default Counters;
 
 
 
-#Komponent navbar.
+# Komponent navbar.
 <h1>W tym komponencie tworzony jest prosty navbar z nazwą "Zamówienia" i koszykiem przy którym wyświetlamy ilość zamówień (przy pomocy przekazanego do componentu totalCounters) w badge. </h1>
 ```javascript
 import React from "react";
@@ -163,7 +163,7 @@ const NavBar = ({ totalCounters }) => {
 export default NavBar;
 
 ```
-#App.js.
+# App.js.
 <h1>Już w App.js tworzone są wszystkie potrzebne funkcje i renderowana cała strona.</h1>
 <h1>Na początku ustawiamy w stanie tabele counters która używana jest do tworzenia/modyfikowania komponentu Counter. </h1>
 <h1>Następnie tworzone są wszystkie funkcje obsługujące onclicki.</h1>
@@ -252,7 +252,7 @@ class App extends Component {
 
 export default App;
 ```
-#git Diff
+# git Diff
 <h1>Różnice pomiedzy commitami.</h1>
 
 ![list](/Lab8/counter-app/Scr/5.PNG "Start")
