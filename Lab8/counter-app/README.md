@@ -20,7 +20,9 @@
 # Komponent Counter czyli nasze zakupy. 
 <h1>Pierwsza część to badge który zmienia swój wygląd (getBadgeClasses) w zależności od wartości jaką ma aktualnie(formatCount). </h1>
 <h1>Następnie przycisk odpowiedzialny za Inkrementacje któremu przy użyciu props pobieramy odpowiednie dane. Następny to przycisk Dekrementacji , różni się tym że przypisujemy mu inną funkcję pod onclick i jest wyłączony jeżeli aktualna wartość countera to zero.</h1>
+
 <h1>I ostatni przycisk to usuwanie któremu pobieramy id usuwanego komponentu. </h1>
+
 ``` 
 import React, { Component } from "react";
 
