@@ -5,8 +5,8 @@
 
 ![list](/Lab8/counter-app/Scr/1.PNG "Start")
 
-#Działanie 
-<h1>Nad funkcyjnymi znajdują się 3 przyciski. Pierwszy cofa wszystkie wartości do zera. Drugi staje się aktywny gdy usuniemy wszystkie komponenty zakupowe i odświeża stronę. Trzeci(dodany) dodaje kolejne komponenty zakupowe.</h1>
+# Działanie 
+<h1>Nad funkcyjnymi przyciskami znajdują się 3 przyciski. Pierwszy cofa wszystkie wartości do zera. Drugi staje się aktywny gdy usuniemy wszystkie komponenty zakupowe i odświeża stronę. Trzeci(dodany) dodaje kolejne komponenty zakupowe.</h1>
 <h1>Po kliknięciu plusika/minusa zostaje dodana/odjeta ilość i zostaje zaktualizowana ilość zakupów w koszyku. Po kliknieciu koszyka dany komponent zostanie usuniety. </h1>
 
 ![list](/Lab8/counter-app/Scr/2.PNG "Start")
