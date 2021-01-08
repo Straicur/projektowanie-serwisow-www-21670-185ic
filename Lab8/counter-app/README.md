@@ -252,7 +252,7 @@ class App extends Component {
 
 export default App;
 ```
-# git Diff
+# git diff
 <h1>Różnice pomiedzy commitami.</h1>
 
 ![list](/Lab8/counter-app/Scr/5.PNG "Start")
