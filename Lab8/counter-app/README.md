@@ -1,8 +1,21 @@
-###
+# Laboratorium nr 8 React - aplikacja nr 2 + analiza kodu źródłowego + git difftool
+<br>
 
-
+#Wygląd aplikacji 
 ![list](/Lab8/counter-app/Scr/1.PNG "Start")
-```
+#Działanie 
+<h1>Nad funkcyjnymi znajdują się 3 przyciski. Pierwszy cofa wszystkie wartości do zera. Drugi staje się aktywny gdy usuniemy wszystkie komponenty zakupowe i odświeża stronę. Trzeci(dodany) dodaje kolejne komponenty zakupowe.</h1>
+<h1>Po kliknięciu plusika/minusa zostaje dodana/odjeta ilość i zostaje zaktualizowana ilość zakupów w koszyku. Po kliknieciu koszyka dany komponent zostanie usuniety. </h1>
+![list](/Lab8/counter-app/Scr/2.PNG "Start")
+![list](/Lab8/counter-app/Scr/3.PNG "Start")
+![list](/Lab8/counter-app/Scr/4.PNG "Start")
+
+
+# Komponent Counter czyli nasze zakupy. 
+<h1>Pierwsza część to badge który zmienia swój wygląd (getBadgeClasses) w zależności od wartości jaką ma aktualnie(formatCount). </h1>
+<h1>Następnie przycisk odpowiedzialny za Inkrementacje któremu przy użyciu props pobieramy odpowiednie dane. Następny to przycisk Dekrementacji , różni się tym że przypisujemy mu inną funkcję pod onclick i jest wyłączony jeżeli aktualna wartość countera to zero.</h1>
+<h1>I ostatni przycisk to usuwanie któremu pobieramy id usuwanego komponentu. </h1>
+```javascript
 import React, { Component } from "react";
 
 class Counter extends Component {//stworzenie komponentu counter 
@@ -58,14 +71,12 @@ class Counter extends Component {//stworzenie komponentu counter
 export default Counter;
 
 ```
-###
-```
+# Komponent Counters to komponent w którym ustawiamy ciało aplikacji.
+<h1>Na początku pobieramy propsem wszyskie funkcje onClick. Są tu 3 przyciski (reset,refresh,add).Po nich wywołujemy funkcję strzałkową która tworzy nam komponenty Counter.</h1>
+```javascript
 import React, { Component } from "react";
 import Counter from "./counter";
 
-/*
-        
-*/
 class Counters extends Component { //stworzenie komponentu counters 
   render() {
     const {
@@ -117,8 +128,13 @@ class Counters extends Component { //stworzenie komponentu counters
 
 export default Counters;
 ```
-###
-```
+
+
+
+
+#Komponent navbar.
+<h1>W tym komponencie tworzony jest prosty navbar z nazwą "Zamówienia" i koszykiem przy którym wyświetlamy ilość zamówień (przy pomocy przekazanego do componentu totalCounters) w badge. </h1>
+```javascript
 import React from "react";
 
 // Stateless Functional Component
@@ -141,8 +157,14 @@ const NavBar = ({ totalCounters }) => {
 export default NavBar;
 
 ```
-###
-```
+#App.js.
+<h1>Już w App.js tworzone są wszystkie potrzebne funkcje i renderowana cała strona.</h1>
+<h1>Na początku ustawiamy w stanie tabele counters która używana jest do tworzenia/modyfikowania komponentu Counter. </h1>
+<h1>Następnie tworzone są wszystkie funkcje obsługujące onclicki.</h1>
+<h1>W renderze tworzymy już nasz navbar i przekazujemy mu aktualną ilość zamówień. </h1>
+<h1>Oraz tworzymy counters i przekazujemy mu wszystkie potrzebne dane i funkcje.</h1>
+<h1>Dodałem na szybko funkcję która dodaje do tablicy kolejny element a rastępnie go renderuje. </h1>
+```javascript
 import React, { Component } from "react";
 import NavBar from "./components/navbar";
 import Counters from "./components/counters";
@@ -224,3 +246,12 @@ class App extends Component {
 
 export default App;
 ```
+#git Diff
+<h1>Różnice pomiedzy commitami.</h1>
+
+![list](/Lab8/counter-app/Scr/5.PNG "Start")
+
+# git difftool 
+<h1>Ta komenda różni się tym że jesteśmy pytani czy chcemy wyświetlić daną zmiane.</h1>
+
+![list](/Lab8/counter-app/Scr/6.PNG "Start")
