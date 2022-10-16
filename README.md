@@ -6,7 +6,7 @@
  - W folderze **lab4** znajdują się wszystkie pliki z laboratorium 4.
  - W folderze **lab5** znajdują się wszystkie pliki z laboratorium 5.
  - W folderze **lab6** znajdują się wszystkie pliki z laboratorium 6.
-<h2>Prosta strona internetowa zawierająca podstrony takie jak list,formularz,strone z podrecznika oraz strona startowa z kilkoma słowami o sobie i linki do wykorzystanych technilogi.Do zrobienia strony wykorzystałem gotowy szablon z bootstrapa z kórego wykorzystuje na każdej stronie jako nav-bar.</h2>
-
-
-
+ - W folderze **lab7** znajdują się wszystkie pliki z laboratorium 7.
+ - W folderze **lab8** znajdują się wszystkie pliki z laboratorium 8.
+ 
+<h2>Prosta strona internetowa zawierająca podstrony takie jak listy, formularze, strona z podrecznika oraz strona startowa z kilkoma słowami o sobie, linki do wykorzystanych technilogi. Do zrobienia strony wykorzystałem gotowy szablon z bootstrapa z kórego wykorzystuje na każdej stronie jako nav-bar.</h2>
